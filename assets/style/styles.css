@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-color:sandybrown;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+
+}
+.gif{
+    position: absolute;
+    bottom: 55%;
+    left: 34%;
+    transform: translate(-8%, 50%);
+    height: 18%;
+}
+img{
+    width: 100%;
+}
