@@ -15,7 +15,7 @@ function api (){
         console.log(body)
     })
 }
-api()
+
 
 next.addEventListener("click",()=>{
     cont++
@@ -53,5 +53,5 @@ prev.addEventListener("click",()=>{
         })
     }
 })
-
+api()
 
