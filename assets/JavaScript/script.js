@@ -66,6 +66,9 @@ prev.addEventListener("click",()=>{
 form.addEventListener("submit",(e)=>{
     e.preventDefault()
     let responsta = input.value.toLowerCase()
+    if(typeof(parseInt(responsta)) === "number"){
+        cont  = parseInt(responsta)
+    }
     const request = fetch(`https://pokeapi.co/api/v2/pokemon/${responsta}/`)
     number.innerHTML = ""
     namePoke.innerHTML = "Loading..."
